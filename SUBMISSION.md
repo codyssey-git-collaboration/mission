@@ -78,3 +78,5 @@
 
 ![git history graph 1](images/evidence1.png)
 ![git history graph 2](images/evidence2.png)
+![git history graph 3](images/evidence3.png)
+![git history graph 4](images/evidence4.png)
