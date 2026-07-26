@@ -60,7 +60,7 @@
 | 최근 커밋 메시지 수정 | `git commit --amend` | 여원 | #27 |
 | 로컬 커밋 취소 + 변경 유지 | `git reset --soft HEAD~1` | 도희 | #28 |
 | 원격 push된 커밋 취소 | `git revert` | 재윤 | #22 |
-| 작업 보관 후 전환 | `git stash` / `stash pop` | (담당 지정 필요) | - |
+| 작업 보관 후 전환 | `git stash` / `stash pop` | 주영 | #26 |
 
 ## Evidence
 - Git 히스토리 그래프: `git log --oneline --graph --all` 결과 (스크린샷 또는 텍스트 첨부 예정)
