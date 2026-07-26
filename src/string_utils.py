@@ -13,7 +13,7 @@ def to_upper(text):
     for ch in text:
         code = ord(ch)
 
-        if 97 <= code < 122:
+        if 97 <= code <= 122:
             result += chr(code - 32)
         else:
             result += ch
