@@ -63,4 +63,8 @@
 | 작업 보관 후 전환 | `git stash` / `stash pop` | 주영 | #26 |
 
 ## Evidence
-- Git 히스토리 그래프: `git log --oneline --graph --all` 결과 (스크린샷 또는 텍스트 첨부 예정)
+
+`git log --oneline --graph --all` 결과 (PR 기반 병합 흐름 + 충돌 해결 머지 커밋 확인 가능)
+
+![git history graph 1](images/evidence1.png)
+![git history graph 2](images/evidence2.png)
