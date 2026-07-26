@@ -74,6 +74,7 @@ Merge made by the 'ort' strategy.
  src/{temp_file.py => temp_conflict.py} |  0
  3 files changed, 54 insertions(+), 4 deletions(-)
  rename src/{temp_file.py => temp_conflict.py} (100%)
+```
 
 ### 해결 과정 (How)
 1. git fetch origin 및 git merge origin/main 명령어를 실행하여 main 브랜치의 파일 이름 변경 이력을 가져옴.
@@ -88,6 +89,6 @@ Merge made by the 'ort' strategy.
 -파일명 변경(src/temp_conflict.py)과 내용 수정 사항이 안전하게 하나로 병합됨.
 -PR 페이지의 병합 블락(Block) 경고가 해제되어 Able to merge 상태로 전환됨.
 
-###배운 점 (Learnings)
+### 배운 점 (Learnings)
 -Git은 최신 머지 전략(ort)을 통해 파일 이름이 바뀌더라도 변경 이력을 추적하여 내용 수정을 자동으로 합성해 준다는 점을 배움.
 -상대방이 파일 구조나 이름을 크게 바꾸는 작업을 할 때는 사전에 팀 채널에 공유하고 빠르게 main에 병합받는 것이 충돌 리스크를 줄이는 방법임을 체득함.
