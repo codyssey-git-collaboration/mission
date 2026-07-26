@@ -3,7 +3,7 @@
 
 def team_info() -> str:
     """우리 팀 정보를 반환한다."""
-    return "우리 팀: (작성 예정)"
+    return "우리 팀: 주영(string), 여원(number)"
 
 
 if __name__ == "__main__":
