@@ -4,7 +4,7 @@
 # ==========================================
 
 def print_welcome_message():
-    """실습용 기본 함수입니다."""
+    """dohee가 수정한 코드입니다."""
     print("This is a temporary file for conflict test.")
 
 
