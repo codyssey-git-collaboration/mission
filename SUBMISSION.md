@@ -12,27 +12,27 @@
 각 항목은 `PR — 연결 이슈(Closes)` 형식입니다.
 
 ### 재윤 (@whitecy01)
-- Issues: [#1](https://github.com/codyssey-git-collaboration/mission/issues/1), [#7](https://github.com/codyssey-git-collaboration/mission/issues/7), [#12](https://github.com/codyssey-git-collaboration/mission/issues/12), [#21](https://github.com/codyssey-git-collaboration/mission/issues/21)
+- Issues: [#1](https://github.com/codyssey-git-collaboration/mission/issues/1), [#7](https://github.com/codyssey-git-collaboration/mission/issues/7), [#12](https://github.com/codyssey-git-collaboration/mission/issues/12), [#21](https://github.com/codyssey-git-collaboration/mission/issues/21), [#40](https://github.com/codyssey-git-collaboration/mission/issues/40)
 - PRs:
   - [#2 docs: add contributing guide](https://github.com/codyssey-git-collaboration/mission/pull/2) — Closes [#1](https://github.com/codyssey-git-collaboration/mission/issues/1)
   - [#8 feat: add math utils](https://github.com/codyssey-git-collaboration/mission/pull/8) — Closes [#7](https://github.com/codyssey-git-collaboration/mission/issues/7)
   - [#13 feat: add common_utils (충돌 base)](https://github.com/codyssey-git-collaboration/mission/pull/13) — Closes [#12](https://github.com/codyssey-git-collaboration/mission/issues/12)
-  - [#15 feat: fill team_info 재윤, 도희 (충돌 A)](https://github.com/codyssey-git-collaboration/mission/pull/15)
+  - [#15 feat: fill team_info 재윤, 도희 (충돌 A)](https://github.com/codyssey-git-collaboration/mission/pull/15) — Closes [#40](https://github.com/codyssey-git-collaboration/mission/issues/40)
   - [#22 docs: revert troubleshooting](https://github.com/codyssey-git-collaboration/mission/pull/22) — Closes [#21](https://github.com/codyssey-git-collaboration/mission/issues/21)
 
 ### 주영 (@juice-devlog)
-- Issues: [#5](https://github.com/codyssey-git-collaboration/mission/issues/5), [#25](https://github.com/codyssey-git-collaboration/mission/issues/25)
+- Issues: [#5](https://github.com/codyssey-git-collaboration/mission/issues/5), [#25](https://github.com/codyssey-git-collaboration/mission/issues/25), [#38](https://github.com/codyssey-git-collaboration/mission/issues/38)
 - PRs:
   - [#6 feat: add string utils](https://github.com/codyssey-git-collaboration/mission/pull/6) — Closes [#5](https://github.com/codyssey-git-collaboration/mission/issues/5)
-  - [#14 refactor: rename temporary file (충돌2)](https://github.com/codyssey-git-collaboration/mission/pull/14)
-  - [#17 refactor: rename temporary file (충돌2)](https://github.com/codyssey-git-collaboration/mission/pull/17)
+  - [#14 refactor: rename temporary file](https://github.com/codyssey-git-collaboration/mission/pull/14) — Closes [#38](https://github.com/codyssey-git-collaboration/mission/issues/38)
+  - [#17 refactor: rename temporary file for the conflict](https://github.com/codyssey-git-collaboration/mission/pull/17) — Closes [#38](https://github.com/codyssey-git-collaboration/mission/issues/38)
   - [#26 feat: git stash troubleshooting](https://github.com/codyssey-git-collaboration/mission/pull/26) — Closes [#25](https://github.com/codyssey-git-collaboration/mission/issues/25)
 
 ### 도희 (@dori943)
-- Issues: [#3](https://github.com/codyssey-git-collaboration/mission/issues/3), [#19](https://github.com/codyssey-git-collaboration/mission/issues/19), [#24](https://github.com/codyssey-git-collaboration/mission/issues/24)
+- Issues: [#3](https://github.com/codyssey-git-collaboration/mission/issues/3), [#19](https://github.com/codyssey-git-collaboration/mission/issues/19), [#24](https://github.com/codyssey-git-collaboration/mission/issues/24), [#39](https://github.com/codyssey-git-collaboration/mission/issues/39)
 - PRs:
   - [#4 feat: add list utils](https://github.com/codyssey-git-collaboration/mission/pull/4) — Closes [#3](https://github.com/codyssey-git-collaboration/mission/issues/3)
-  - [#11 feat: add temp.py (충돌2 base)](https://github.com/codyssey-git-collaboration/mission/pull/11)
+  - [#11 feat: add temp.py (충돌2 base)](https://github.com/codyssey-git-collaboration/mission/pull/11) — Closes [#39](https://github.com/codyssey-git-collaboration/mission/issues/39)
   - [#20 feat: modify temp.py (충돌2)](https://github.com/codyssey-git-collaboration/mission/pull/20) — Closes [#19](https://github.com/codyssey-git-collaboration/mission/issues/19)
   - [#23 docs: conflict2 resolution log](https://github.com/codyssey-git-collaboration/mission/pull/23) — Closes [#19](https://github.com/codyssey-git-collaboration/mission/issues/19)
   - [#28 docs: reset --soft troubleshooting](https://github.com/codyssey-git-collaboration/mission/pull/28) — Closes [#24](https://github.com/codyssey-git-collaboration/mission/issues/24)
