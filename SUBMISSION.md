@@ -63,9 +63,6 @@
 | 작업 보관 후 전환 | `git stash` / `stash pop` | 주영 | #26 |
 
 ## 코드 리뷰 & 리뷰 반영
-
-> 팀원별 최소 기준: 코드 리뷰 작성 **2개 이상**(본인 PR 제외) + 본인 PR에서 리뷰 코멘트 반영 **1회 이상**
-
 | 팀원 | 코드 리뷰 작성 (본인 PR 제외) | 본인 PR 리뷰 반영 |
 |------|------------------------------|-------------------|
 | 재윤 (@whitecy01) | [#10](https://github.com/codyssey-git-collaboration/mission/pull/10) (2건) | [#22](https://github.com/codyssey-git-collaboration/mission/pull/22) |
