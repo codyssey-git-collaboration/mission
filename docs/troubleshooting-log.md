@@ -16,6 +16,7 @@ git log --oneline -1
 #   bb0183d feat: add discount util (wrong rate 1.5)
 
 # 되돌리는 새 커밋 생성 (원본은 히스토리에 보존)
+# --no-edit: revert 커밋 메시지 편집기를 띄우지 않고 기본 메시지("Revert ...")로 바로 커밋
 git revert HEAD --no-edit
 #   04eee6c Revert "feat: add discount util (wrong rate 1.5)"
 
@@ -24,7 +25,7 @@ git push
 ```
 
 ### 결과
-- 되돌리는 새 커밋 `04eee6c`가 생성되어 `src/discount.py`가 삭제됨(변경이 취소됨).
+- `feat: add discount util` 커밋은 파일을 **새로 추가**하는 커밋이었으므로, 이를 revert하면 결과적으로 `src/discount.py`가 삭제된다. 즉, revert는 항상 **"그 커밋이 한 일의 반대"**를 수행한다(추가 → 삭제, 삭제 → 복원, 수정 → 원복).
 - 원본 커밋 `bb0183d`는 히스토리에 그대로 남아 있어, "무엇을 왜 되돌렸는지" 추적이 가능하다.
 - **주의점**: revert는 히스토리를 지우지 않으므로 `git push`만으로 충분하다. 반면 `reset`으로 push된 커밋을 지우면 `--force`가 필요하고, 이는 공유 브랜치의 히스토리를 깨뜨려 협업에 문제를 일으킨다.
 
